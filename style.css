@@ -608,6 +608,7 @@
 .link {
     text-decoration: none;
 }
+
 .link:hover {
   display: block;
   width: 100%;
