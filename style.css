@@ -505,3 +505,56 @@
     box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
     background: rgb(255, 255, 255);
 }
+
+.game__six-pic {
+    background-image: url(img/six-pic.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgba(39, 26, 88, 1);
+    height: 314px;
+    border-radius: 30px;
+}
+
+.game__six-name {
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 32px 32px 36px 32px;
+}
+
+.game__sixth {
+    width: 107px;
+    height: 36px;
+    border-radius: 52px;
+    background: rgb(247, 247, 247);
+}
+
+.game__number-six {
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px 16px 10px 16px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.game__name-six {
+    margin-top: 16px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+}
