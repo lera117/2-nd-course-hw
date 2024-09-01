@@ -128,24 +128,6 @@
     background-position-y: 10%;
 }
 
-/*.about-games__big-pic {
-    position: absolute;
-    background-image: url(img/star1.svg);
-    width: 40%;
-    height: 40%;
-    left: 70%;
-    top: 5%;
-    background-repeat: no-repeat;
-}
-
-.star1 {
-    position: absolute;
-    width: 585px;
-    height: 585px;
-    left: 933px;
-    top: 77px;
-}*/
-
 .game__stars {
     position: relative;
 }
@@ -621,4 +603,13 @@
     line-height: 39px;
     letter-spacing: 0px;
     text-align: left;
+}
+
+.link {
+    text-decoration: none;
+}
+.link:hover {
+  display: block;
+  width: 100%;
+  height: auto;
 }
