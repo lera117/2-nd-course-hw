@@ -70,7 +70,7 @@
     max-width: 768px;
 }
 
-.title {
+.top__title {
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 64px;
@@ -82,7 +82,7 @@
     max-width: 768px;
 }
 
-.appeal__title-list {
+.top__appeal-title {
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 24px;
@@ -129,11 +129,11 @@
     background-position-y: 10%;
 }
 
-.game__stars {
+.game-stars {
     position: relative;
 }
 
-.about-games__ministar-one {
+.game-stars__ministar-one {
     position: absolute;
     background-image: url(img/star11.svg);
     width: 2%;
@@ -143,7 +143,7 @@
     background-repeat: no-repeat;
 }
 
-.about-games__star-medium {
+.game-stars__star-medium {
     position: absolute;
     background-image: url(img/star12.svg);
     width: 4%;
@@ -184,7 +184,7 @@
     margin-top: 24px;
 }
 
-.game-list {
+.game {
     margin-top: 72px;
     height: 1056px;
     display: flex;
@@ -194,7 +194,7 @@
     column-gap: 32px;
 }
 
-.games__part-one {
+.game__part-one {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -342,7 +342,7 @@
     text-align: left;
 }
 
-.games__part-two {
+.game__part-two {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -473,7 +473,7 @@
     text-align: left;
 }
 
-.games__part-three {
+.game__part-three {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
