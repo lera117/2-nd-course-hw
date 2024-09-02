@@ -1,0 +1,615 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.top {
+    height: 800px;
+    background: rgb(225, 255, 143);
+    position: relative;
+    overflow: hidden;
+}
+
+.star2 {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 63px;
+    right: 1320px;
+    top: 94px;
+}
+
+.star3 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 156px;
+    top: 69px;
+}
+
+.star4 {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 1013px;
+    top: 568px;
+}
+
+.star5 {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 948px;
+    top: 538px;
+}
+
+.stargroup {
+    position: absolute;
+    width: 1074px;
+    height: 1130.46px;
+    /*left: 854px;*/
+    right: -488px;
+    top: -333.46px;
+    bottom: 5123px;
+}
+
+.top__content {
+    padding-top: 196px;
+    margin-bottom: 156px;
+    height: 358px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    max-width: 768px;
+}
+
+.top__title {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    /*margin-right: 552px;*/
+    max-width: 768px;
+}
+
+.top__appeal-title {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 24px;
+    max-width: 720px;
+}
+
+.letsgo {
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    padding: 16px 28px 16px 28px;
+    width: 247px;
+    height: 66px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.letsgo:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(32, 32, 39);
+    cursor: pointer;
+}
+
+.about-games {
+    height: 1470px;
+    background: rgb(32, 32, 39);
+    background-image: url(img/star1.svg);
+    left: 70%;
+    top: 5%;
+    background-repeat: no-repeat;
+    background-position-x: 112%;
+    background-position-y: 10%;
+}
+
+.game-stars {
+    position: relative;
+}
+
+.game-stars__ministar-one {
+    position: absolute;
+    background-image: url(img/star11.svg);
+    width: 2%;
+    height: 2%;
+    left: 2%;
+    top: 52%;
+    background-repeat: no-repeat;
+}
+
+.game-stars__star-medium {
+    position: absolute;
+    background-image: url(img/star12.svg);
+    width: 4%;
+    height: 4%;
+    left: 3%;
+    top: 56%;
+    background-repeat: no-repeat;
+}
+
+.about-games__content {
+    padding-top: 94px;
+    height: 198px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.about-games__title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.about-games__description {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 788px;
+    margin-top: 24px;
+}
+
+.game {
+    margin-top: 72px;
+    height: 1056px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 32px;
+}
+
+.game__part-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    row-gap: 32px;
+}
+
+.game__one {
+    height: 473px;
+    width: 378px;
+    border-radius: 30px;
+    box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+    background: rgb(255, 255, 255);
+}
+
+.game__one-pic {
+    background-image: url(img/one-pic.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgba(173, 97, 255, 1);
+    height: 314px;
+    border-radius: 30px;
+}
+
+.game__one-name {
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 32px 32px 36px 32px
+}
+
+.game__first {
+    max-width: 108px;
+    height: 36px;
+    border-radius: 52px;
+    background: rgb(247, 247, 247);
+}
+
+.game__number-one {
+    max-width: 76px;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 16px 10px 16px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.game__name-one {
+    height: 39px;
+    margin-top: 16px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.game__four-pic {
+    background-image: url(img/four-pic.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgba(39, 26, 88, 1);
+    height: 314px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.game__pic-arm {
+    position: absolute;
+    transform: rotate(10.00deg);
+    font-size: 82px;
+    top: 34%;
+    left: 38%;
+    width: 24%;
+    height: 33%;
+    border: 0.5px solid rgba(0, 0, 0, 0.2),rgb(39, 26, 88);
+    border-radius: 20px;
+    box-shadow: 0px 15.27px 51.14px -9.16px rgb(0 0 0 / 30%);
+    background: rgb(255, 199, 0);
+    background-position: center;
+}
+
+.game__four {
+    width: 378px;
+    height: 551px;
+    border-radius: 30px;
+    box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+    background: rgb(255, 255, 255);
+}
+
+.game__four-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 32px 32px 36px 32px;
+}
+
+.game__fourth {
+    width: 108px;
+    height: 36px;
+    border-radius: 52px;
+    background: rgb(247, 247, 247);
+}
+
+.game__number-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 16px 10px 16px;
+    color: rgb(39, 26, 88);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.game__name-four {
+    margin-top: 16px;
+    height: 117px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.game__part-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    row-gap: 32px;
+}
+
+.game__two {
+    width: 378px;
+    height: 512px;
+    border-radius: 30px;
+    box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+    background: rgb(255, 255, 255);
+}
+
+.game__two-pic {
+    background-image: url(img/two-pic.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgba(253, 173, 0, 1);
+    height: 314px;
+    border-radius: 30px;
+}
+
+.game__two-name {
+    height: 198px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 32px 32px 36px 32px;
+}
+
+.game__second {
+    width: 111px;
+    height: 36px;
+    border-radius: 52px;
+    background: rgb(247, 247, 247);
+}
+
+.game__number-two {
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px 16px 10px 16px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.game__name-two {
+    margin-top: 16px;
+    height: 78px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.game__five {
+    width: 378px;
+    height: 512px;
+    border-radius: 30px;
+    box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+    background: rgb(255, 255, 255);
+}
+
+.game__five-pic {
+    background-image: url(img/five-pic.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgba(153, 209, 0, 1);
+    height: 314px;
+    border-radius: 30px;
+}
+
+.game__five-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 32px 32px 36px 32px;
+}
+
+.game__fifth {
+    width: 111px;
+    height: 36px;
+    border-radius: 52px;
+    background: rgb(247, 247, 247);
+}
+
+.game__number-five {
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px 16px 10px 16px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.game__name-five {
+    margin-top: 16px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.game__part-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    row-gap: 32px;
+}
+
+.game__three {
+    width: 378px;
+    height: 473px;
+    border-radius: 30px;
+    box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+    background: rgb(255, 255, 255);
+}
+
+.game__three-pic {
+    background-image: url(img/three-pic.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgba(86, 94, 239, 1);
+    height: 314px;
+    border-radius: 30px;
+}
+
+.game__three-name {
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 32px 32px 36px 32px;
+}
+
+.game__third {
+    width: 107px;
+    height: 36px;
+    border-radius: 52px;
+    background: rgb(247, 247, 247);
+}
+
+.game__number-three {
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px 16px 10px 16px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.game__name-three {
+    margin-top: 16px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.game__six {
+    width: 378px;
+    height: 551px;
+    border-radius: 30px;
+    box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+    background: rgb(255, 255, 255);
+}
+
+.game__six-pic {
+    background-image: url(img/six-pic.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgba(39, 26, 88, 1);
+    height: 314px;
+    border-radius: 30px;
+}
+
+.game__six-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    padding: 32px 32px 36px 32px;
+}
+
+.game__sixth {
+    width: 107px;
+    height: 36px;
+    border-radius: 52px;
+    background: rgb(247, 247, 247);
+}
+
+.game__number-six {
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px 16px 10px 16px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.game__name-six {
+    margin-top: 16px;
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+}
+
+.link:hover {
+  display: block;
+  width: 100%;
+  height: auto;
+}
