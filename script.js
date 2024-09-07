@@ -45,6 +45,7 @@ const user = {
     age: 23,
     "isAdmin": true
 }
+
 let yourName = prompt('Введите ваше имя');
 let hello = 'Привет, ' + yourName + ' !';
 alert(hello);
