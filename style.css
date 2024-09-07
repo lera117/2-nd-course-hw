@@ -627,16 +627,6 @@
   .top {
     height: 700px;
   }
-  /*.top {
-      background-image: url(/img/star_mobile.svg);
-      background-position: top;
-      background-repeat: no-repeat;
-      overflow: hidden;
-      width: 223.52px;
-      height: 238.57px;
-      left: 489.81px;
-      top: -40.43px;
-  }*/
   .stargroup {
     display: none;
   }
