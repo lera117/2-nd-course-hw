@@ -620,4 +620,138 @@
     height: auto;
 }
 
+.mini-games {
+    height: 3500px;
+    position: relative;
+    background: rgb(32, 32, 39);
+    overflow: hidden;
+}
+
+.star6 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 1280px;
+    top: 126px;
+}
+
+.star7 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 1235px;
+    top: 93px;
+}
+
+.star8 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 1319px;
+    top: 3366px;
+}
+
+.star10 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 1249px;
+    top: 3414px;
+}
+
+.mini-games__title {
+    padding-top: 46px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.mini-games__item {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.mini-games__one {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10;
+    border-radius: 30px;
+    box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+    background: rgb(255, 255, 255);
+}
+
+.mini-games__one-name {
+    width: 505px;
+    height: 249px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 48px 48px 48px 48px;
+}
+
+.mini-games__one-title {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.mini-games__one-desc {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.mini-games__one-play {
+    width: 247px;
+    height: 66px;
+    padding: 16px 28px 16px 28px;
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    margin-top: 36px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 141.69%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.mini-games__one-play:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(32, 32, 39);
+    cursor: pointer;
+}
+
+.mini-games__one-pic {
+    background-image: url(img/minigameone.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgb(173, 97, 255);
+    height: 500px;
+    border-radius: 30px;
+    width: 600px;
+}
+
 @import 'mobile';
