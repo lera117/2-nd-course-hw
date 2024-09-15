@@ -51,7 +51,7 @@ let hello = 'Привет, ' + yourName + ' !';
 alert(hello);*/
 
 //Задание 1//
-/*let password = 'hello';
+let password = 'hello';
 let go = prompt('Введите пароль');
 if (go === password) {
     console.log("Пароль введен верно");
@@ -70,7 +70,7 @@ if (c >= 0 && c <= 10) {
 //Задание 3//
 let d = 7;
 let e = 119;
-if (d>=100 || e>100) {
+if (d >= 100 || e > 100) {
     console.log("Верно");
 } else {
     console.log("Неверно");
@@ -79,7 +79,7 @@ if (d>=100 || e>100) {
 //Задание 4//
 let a = '2';
 let b = '3';
-alert(Number(a) + Number(b));*/
+alert(Number(a) + Number(b));
 
 //Задание 5//
 let monthNumber = 12;
