@@ -1,0 +1,84 @@
+@media (max-width: 376px) {
+
+    .center {
+        padding-left: 17px;
+        padding-right: 16px;
+    }
+
+    .top {
+        height: 700px;
+    }
+
+    .stargroup {
+        display: none;
+    }
+
+    .star2 {
+        width: 35px;
+        height: 35px;
+        left: 38px;
+        top: 97px;
+    }
+
+    .star3 {
+        width: 21px;
+        height: 21px;
+        left: 92px;
+        top: 64px;
+    }
+
+    .star4 {
+        width: 39px;
+        height: 41px;
+        left: 304px;
+        top: 580px;
+    }
+
+    .star5 {
+        width: 18px;
+        height: 18px;
+        left: 273px;
+        top: 557px;
+    }
+
+    .star-mobile {
+        display: block;
+        position: absolute;
+        width: 224px;
+        height: 239px;
+        left: 230px;
+        top: -90px;
+    }
+
+    .top__content {
+        padding-top: 147px;
+        max-width: 343px;
+        height: 371px;
+    }
+
+    .top__title {
+        font-size: 40px;
+        line-height: 49px;
+        text-align: center;
+    }
+
+    .top__appeal-title {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .letsgo {
+        width: 285px;
+        height: 55px;
+        margin-top: 36px;
+        margin-left: 29px;
+        margin-right: 29px;
+        line-height: 142%;
+        font-size: 16px;
+    }
+
+    .about-games {
+        display: none;
+    }
+}
