@@ -50,6 +50,7 @@ let yourName = prompt('Введите ваше имя');
 let hello = 'Привет, ' + yourName + ' !';
 alert(hello);*/
 
+
 //Задание 1//
 let password = 'hello';
 let go = prompt('Введите пароль');
